@@ -9,3 +9,24 @@ git branch -M main
 git remote add etiqueta URL_do_repositorio_GitHub
 git remote
 git push -u etiqueta_URL_do_repositorio_GitHub rama
+git clone URL_do_repositorio_GitHub
+git pull URL_do_repositorio_GitHub
+git checkout -- nome_do_arquivo
+git reset --hard
+git stash
+git stash show
+git stash pop
+git diff
+git fetch
+git merge
+git tag -a nombre_etiqueta
+git tag nombre_etiqueta -m "comentario"
+git tag nombre_etiqueta
+git push --tags
+git branch
+git branch nova_rama
+git checkout -b nova_rama
+git checkout outra_rama
+git show-branch
+git branch -d nome_rama
+git merge rama_a_fusionar
